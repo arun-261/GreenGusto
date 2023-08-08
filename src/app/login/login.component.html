@@ -1,0 +1,37 @@
+<div class="log">
+<h1>Welcome to the green team.</h1>
+<div class="container">
+    <form (ngSubmit)="login()" [formGroup]="loginForm" class="login-form">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label  for="username">Username:</label>
+            <input formControlName="uname" name="uname" type="text">
+            <!-- structural directive -->
+            <div *ngIf="this.loginForm.get('uname')?.errors && this.loginForm.get('uname')?.touched" class="text-danger">
+                  Invalid username
+            </div>
+            
+        </div>
+        
+    
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input formControlName="pswd" name="pswd" type="password">
+        </div>
+         <!-- structural directive -->
+        <div *ngIf="this.loginForm.get('pswd')?.errors && this.loginForm.get('pswd')?.touched" class="text-danger">
+            Invalid password
+      </div>
+      <div class="text-danger" >{{eMsg}}</div>
+        <div class="form-group">
+            <button class="btn btn-success" type="button" type="submit" >Login</button>
+            
+        </div>
+        <span *ngIf="msg" class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </span>>
+        New user? click here to <a href="register">Register</a>
+    </form>
+</div>
+
+</div>

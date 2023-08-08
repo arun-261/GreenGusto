@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin-left: 100px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .head{
+    position: absolute;
+    width: 400px;
+}
+.header .head p{
+    font-size: 26px;
+}
+
+.header .head h1{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: 900;
+    font-size: 50px;
+}
+.header .head a{
+    width: 120px;
+    height: 30px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.header .head h1 span{
+    font-size: 80px;
+    color: rgb(59, 160, 59);
+}
+.image{
+    margin-left: 500px;
+}
+.image img{
+    width: 600px;
+    height: 6%;
+}
+
+
+/* banner 2 */
+.banner2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    margin-left: 100px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutContent{
+    position: absolute;
+    width: 400px;
+}
+.image2{
+    margin-left: 500px;
+}
+.image2 img{
+    width: 550px;
+    height: 550px;
+    margin-left: 70px;
+    position: absolute;
+}
+ul li{
+    line-height: 2.5em;
+}
+.list{
+    margin-left: 15px;
+}
+.list h5{
+    color: green;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.aboutQuote{
+    margin-top:100px;
+}
+.aboutQuote h1 span{
+    font-size: 70px;
+    color: rgb(59, 160, 59);
+}
+.aboutQuote h1{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.banner3{
+    display: flex;
+   justify-content: space-evenly;
+   height: 100vh;
+   align-items: center;
+}
+.image-container{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+.card-container{
+    width: 350px;
+border-radius: 15px;
+box-shadow: 10px 5px 26px #494b59;
+overflow: hidden;
+text-align: center;
+}
+.image-container img:hover{
+    transform: scale(1.1) rotate(-5deg);
+    }
+.card-container a{
+        width: 120px;
+        height: 30px;
+        padding: 2px;
+        margin-top: 10px;
+    }
+.banner4{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(111, 202, 111);
+}    
+.promise img{
+    width: 600px;
+    height: 600px;
+    margin-left: 40px;
+}
+.promiseQuote{
+    color: white;
+    width: 700px;
+margin-bottom: 400px;
+margin-left: 30px;
+}
+.chart h2{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.chart p{
+    margin-top: 20px;
+    line-height: 2em;
+    margin-left: 20px;
+}
+.chart1{
+    margin: 100px;
+    width:150px;
+
+    
+}
+
+.chartImg{
+    margin-top: 90px;
+}
+.banner6{
+    
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+.ContactForm form{
+width: 350px;
+margin-left: 200px;
+margin-top: 120px;
+}
+.ContactForm a{
+    width: 120px;
+    height: 30px;
+    padding: 2px;
+    margin-top: 10px;  
+    margin-left: 110px; 
+}
+.ContactForm h1{
+    color: white;
+}
+.cForm{
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.Comments{
+    margin-top: 10px;
+   height: 130px;
+   background: transparent;
+color: white;
+}
+.contactQuote{
+    color: white;
+    margin-top: 17%;
+    padding: 30px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: 900;
+    font-size: 50px;
+}
+::placeholder{
+    color: white;
+}

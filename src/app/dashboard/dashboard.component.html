@@ -1,0 +1,21 @@
+<section>
+ <h1 class="mt-5">Dummy Data</h1>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quam vitae! Repudiandae quas veritatis modi eum aperiam. Reprehenderit velit nulla vero rem odit commodi explicabo eius omnis, quas accusantium unde.</p>
+</section>
+
+
+<section>
+    <div class="container">
+        <div *ngFor="let plants of allPlants" class="card mx-auto " style="width: 18rem;" >
+            <img [src]="plants.image" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Name:{{plants.name}}</h5>
+              <p class="card-text">Type:{{plants.type}}</p>
+              <p class="card-text">Suitable location:{{plants.SuitableLocation}}</p>
+
+              <a href="#" class="btn btn-success">Done</a>
+            </div>
+          </div>
+    </div>
+    
+</section>

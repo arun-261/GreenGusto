@@ -1,0 +1,37 @@
+footer{
+    height: 60vh;
+}
+h1{
+    margin: 40px;
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+width: 100px;
+}
+ul li a{
+    text-decoration: none;
+    line-height: 2em;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.button{
+    width: 150px;
+}
+.icon{
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-left: 80px;
+}
+.icon i:hover{
+    color: green;
+    transform: scaleY(1.4);
+}
+.FooterBox{
+    margin-left: 600px;
+}
+.upIcon{
+    width: 20px;
+    height: 20px;
+}
